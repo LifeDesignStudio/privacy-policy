@@ -1,4 +1,4 @@
-# # Privacy Policy for Album Art Gallery                                                                                                             
+# Privacy Policy for Album Art Gallery                                                                                                             
                                                                                                                                                    
   Last updated: March 29, 2026                                                                                                                       
                                                                                                                                                      
