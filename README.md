@@ -1,8 +1,8 @@
-# Privacy Policy for Album Art Gallery                                                                                                             
+# Privacy Policy for Album Arts Gallery                                                                                                             
                                                                                                                                                    
   Last updated: March 29, 2026                                                                                                                       
                                                                                                                                                      
-  Album Art Gallery ("the App") is developed by Yoshi (Life Design). This policy explains how the App handles your information.                      
+  Album Arts Gallery ("the App") is developed by Yoshi (Life Design). This policy explains how the App handles your information.                      
                                                                                                                                                      
   ## Data Collection                                        
   The App does not collect, store, or transmit any personal data.                                                                                  
