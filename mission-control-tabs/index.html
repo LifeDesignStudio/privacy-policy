@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Mission Control Tabs</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+    h1 { font-size: 1.6em; } h2 { font-size: 1.1em; margin-top: 2em; }
+    a { color: #0070f3; }
+    .back { font-size: 0.9em; margin-bottom: 2em; display: block; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.9em; }
+    th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid #eee; }
+    th { background: #f5f5f5; }
+    code { background: #f5f5f5; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <a class="back" href="../">← All Apps</a>
+  <h1>Privacy Policy — Mission Control Tabs</h1>
+  <p><strong>Last Updated:</strong> April 5, 2026<br>
+  <strong>Developer:</strong> Yoshi (Life Design Studio)</p>
+
+  <h2>1. Overview</h2>
+  <p>Mission Control Tabs is a Chrome browser extension that provides a visual dashboard for managing your open browser tabs. This policy explains what data the Extension accesses and how it is used.</p>
+
+  <h2>2. Data Access</h2>
+  <p>The Extension requests the following Chrome permissions to operate:</p>
+  <table>
+    <tr><th>Permission</th><th>Why it is needed</th></tr>
+    <tr><td><code>tabs</code></td><td>Read tab titles, URLs, and favicons to display them in the dashboard</td></tr>
+    <tr><td><code>activeTab</code></td><td>Access the currently active tab when capturing a screenshot</td></tr>
+    <tr><td><code>tabGroups</code></td><td>Read tab group names and colors for visual grouping</td></tr>
+    <tr><td><code>sessions</code></td><td>List recently closed tabs and windows for one-click restoration</td></tr>
+    <tr><td><code>sidePanel</code></td><td>Display the dashboard as a browser side panel</td></tr>
+    <tr><td><code>host_permissions: &lt;all_urls&gt;</code></td><td>Required by Chrome to call <code>captureVisibleTab</code> for screenshot thumbnails</td></tr>
+  </table>
+
+  <h2>3. Data Usage</h2>
+  <p><strong>Screenshots (thumbnails)</strong> are captured using <code>chrome.tabs.captureVisibleTab</code> and stored only in memory. They are never written to disk or transmitted anywhere, and are discarded when the dashboard is closed.</p>
+  <p><strong>User preferences</strong> (view mode, theme, zoom level, background color) are stored in <code>localStorage</code> on your local device and never leave your browser.</p>
+
+  <h2>4. What Is Never Collected</h2>
+  <ul>
+    <li>The Extension does <strong>not</strong> transmit any data to external servers.</li>
+    <li>The Extension does <strong>not</strong> log, store, or share your browsing history, URLs, or tab contents.</li>
+    <li>The Extension does <strong>not</strong> use analytics, tracking, or telemetry of any kind.</li>
+    <li>The Extension does <strong>not</strong> use cookies.</li>
+  </ul>
+
+  <h2>5. Third-Party Services</h2>
+  <p>The Extension does not integrate with or send data to any third-party services.</p>
+
+  <h2>6. Children's Privacy</h2>
+  <p>The Extension does not knowingly collect any information from anyone, including children under the age of 13.</p>
+
+  <h2>7. Changes to This Policy</h2>
+  <p>If this policy is updated, the "Last Updated" date above will be revised. Continued use of the Extension after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>8. Contact</h2>
+  <p><a href="mailto:lifedesignstudio42@gmail.com">lifedesignstudio42@gmail.com</a></p>
+</body>
+</html>
